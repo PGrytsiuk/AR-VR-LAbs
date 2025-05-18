@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/task1-5", "destination": "/task1-5.html" },
+    { "source": "/task2-5", "destination": "/task2-5.html" },
+    { "source": "/task3-5", "destination": "/task3-5.html" },
+    { "source": "/task4-5", "destination": "/task4-5.html" }
+  ]
+}

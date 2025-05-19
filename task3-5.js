@@ -1,4 +1,4 @@
-import './src/style.css'
+
 
 import * as THREE from 'https://unpkg.com/three@0.154.0/build/three.module.js';
 import { ARButton } from 'https://unpkg.com/three@0.154.0/examples/jsm/webxr/ARButton.js';

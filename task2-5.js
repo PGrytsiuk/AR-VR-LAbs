@@ -1,8 +1,8 @@
 import './src/style.css'
 
-import * as THREE from "three"
-import { ARButton } from "three/addons/webxr/ARButton.js"
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import * as THREE from 'https://unpkg.com/three@0.154.0/build/three.module.js';
+import { ARButton } from 'https://unpkg.com/three@0.154.0/examples/jsm/webxr/ARButton.js';
+import { GLTFLoader } from 'https://unpkg.com/three@0.154.0/examples/jsm/loaders/GLTFLoader.js';
 
 let camera, scene, renderer;
 let loader;

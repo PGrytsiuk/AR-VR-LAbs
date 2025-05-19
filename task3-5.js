@@ -1,6 +1,7 @@
 import './src/style.css'
-import * as THREE from "three"
-import { ARButton } from "three/addons/webxr/ARButton.js"
+
+import * as THREE from 'https://unpkg.com/three@0.154.0/build/three.module.js';
+import { ARButton } from 'https://unpkg.com/three@0.154.0/examples/jsm/webxr/ARButton.js';
 
 let container;
 let camera, scene, renderer;
@@ -102,7 +103,7 @@ let hitTestSource = null;
 let localSpace = null;
 let hitTestSourceInitialized = false;
 
-// Мета даної функції отримати hitTestSource для відслідковування поверхонь у AR
+// Мета данної функції отримати hitTestSource для відслідковування поверхонь у AR
 // та створює referenceSpace, тобто як ми інтерпретуватимемо координати у WebXR
 // параметр 'viewer' означає, що ми відстежуємо камеру мобільного пристрою
 async function initializeHitTestSource() {

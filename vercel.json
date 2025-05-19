@@ -1,4 +1,5 @@
 {
+  "outputDirectory": ".", 
   "rewrites": [
     { "source": "/task1-5", "destination": "/task1-5.html" },
     { "source": "/task2-5", "destination": "/task2-5.html" },
@@ -7,8 +8,14 @@
   ],
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "task*.html", "use": "@vercel/static" },
-    { "src": "*.js", "use": "@vercel/static" },
+    { "src": "task1-5.html", "use": "@vercel/static" },
+    { "src": "task2-5.html", "use": "@vercel/static" },
+    { "src": "task3-5.html", "use": "@vercel/static" },
+    { "src": "task4-5.html", "use": "@vercel/static" },
+    { "src": "task1-5.js", "use": "@vercel/static" },
+    { "src": "task2-5.js", "use": "@vercel/static" },
+    { "src": "task3-5.js", "use": "@vercel/static" },
+    { "src": "task4-5.js", "use": "@vercel/static" },
     { "src": "src/style.css", "use": "@vercel/static" }
   ]
 }

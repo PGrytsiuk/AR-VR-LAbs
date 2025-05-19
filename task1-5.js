@@ -1,5 +1,3 @@
-
-
 import * as THREE from 'https://unpkg.com/three@0.154.0/build/three.module.js';
 import { ARButton } from 'https://unpkg.com/three@0.154.0/examples/jsm/webxr/ARButton.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.154.0/examples/jsm/controls/OrbitControls.js';
